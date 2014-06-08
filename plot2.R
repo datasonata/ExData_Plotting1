@@ -35,6 +35,7 @@ p2 <- function() {
 }
 # create PNG file
 png(file="plot2.png", width = 480, height = 480, units = "px")
+# execute p2 function to create the plot
 p2()
 # turn off the graphic device (png file)
 dev.off()

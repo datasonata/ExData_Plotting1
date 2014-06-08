@@ -87,7 +87,9 @@ p4 <- function() {
 
 # create PNG file
 png(file="plot4.png", width = 480, height = 480, units = "px")
+# set parameter to output plots into the same graphics device in two columns and two rows
 par(mfcol = c(2, 2))
+# execute p4 function to generate the plot
 p4()
 # turn off the graphic device (png file)
 dev.off()

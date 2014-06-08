@@ -16,6 +16,8 @@ p1 <- function() {
 
 # create PNG file
 png(file="plot1.png", width = 480, height = 480, units = "px")
+# execute p1 function to create a plot
 p1()
+# close the device
 dev.off()
 

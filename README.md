@@ -116,9 +116,15 @@ The four plots that you will need to construct are shown below.
 
 Step 1: Clone the repository with scripts plot1.R, plot2.R, plot3.R, plot4.R
 
-Step 2: Download data file from here <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a>
+Step 2: Download data file from here <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> to the directory where you cloned the repository with the R scripts
 
-Step 3: Unzip the archive to "data" subdirectory under the directory where you clone the R scripts. This should create a file "data/household_power_consumption.txt"
+Step 3: In the directory, where you cloned the R scripts, create 'data' subfolder, i.e. mkdir data
 
-Step 4. Run the scripts one by one to produce the plots
+Step 4: cd to 'data' subfolder, and unzip the archive, e.g unzip ../household_power_consumption.zip. This should create a file "data/household_power_consumption.txt"
+
+Step 5. cd to the directory where R scripts are located and run the scripts one by one to produce the plots, as follows:
+	Rscript plot1.R
+	Rscript plot2.R
+	Rscript plot3.R
+	Rscript plot4.R
 

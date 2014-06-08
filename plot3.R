@@ -42,9 +42,8 @@ p3 <- function() {
 }
 # create PNG file
 png(file="plot3.png", width = 480, height = 480, units = "px")
-
+# execute p3 function to create the plot
 p3()
-
 # turn off the graphic device (png file)
 dev.off()
 
