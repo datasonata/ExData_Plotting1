@@ -123,8 +123,8 @@ Step 3: In the directory, where you cloned the R scripts, create 'data' subfolde
 Step 4: cd to 'data' subfolder, and unzip the archive, e.g unzip ../household_power_consumption.zip. This should create a file "data/household_power_consumption.txt"
 
 Step 5. cd to the directory where R scripts are located and run the scripts one by one to produce the plots, as follows:
-	Rscript plot1.R
-	Rscript plot2.R
-	Rscript plot3.R
-	Rscript plot4.R
+	Rscript plot1.R<br>
+	Rscript plot2.R<br>
+	Rscript plot3.R<br>
+	Rscript plot4.R<br>
 
