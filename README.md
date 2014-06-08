@@ -112,3 +112,13 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+##  How to Run Script to generate the PNG graphs
+
+Step 1: Clone the repository with scripts plot1.R, plot2.R, plot3.R, plot4.R
+
+Step 2: Download data file from here <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a>
+
+Step 3: Unzip the archive to "data" subdirectory under the directory where you clone the R scripts
+
+Step 4. Run the scripts one by one to produce the plots
+
